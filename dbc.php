@@ -1,1 +1,1 @@
-$db = mysqli_connect('textservice', 'admin', 'godgod', 'textApp');
+$db = mysqli_connect('textservice', 'dagod', 'godgod', 'textApp');
