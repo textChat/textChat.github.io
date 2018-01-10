@@ -1,6 +1,6 @@
 <?php include("conn.php");
 
-$signUp = $_GET['signUp'];
+$username = $_GET['username'];
 
-$sql = "INSERT INTO users (user) VALUES ('$signUp');";
+$sql = "INSERT INTO users (username) VALUES ('$username');";
 mysqli_query($conn, $sql);  
