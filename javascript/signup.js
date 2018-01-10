@@ -1,3 +1,3 @@
 function start(){
- window.location.replace(html/signup.html) 
+ window.location.replace("html/signup.html") 
 }
