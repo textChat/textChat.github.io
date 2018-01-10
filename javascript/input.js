@@ -8,5 +8,5 @@ form.addEventListener("submit", function(event) {
 });
 
 function test(){
-    console.log(input)   
+    console.log(input); 
 }
