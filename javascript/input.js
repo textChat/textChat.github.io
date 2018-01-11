@@ -8,5 +8,8 @@ form.addEventListener("submit", function(event) {
 });
 
 function test(){
-    console.log(input); 
+    console.log(input);
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "php/sendData.php?username=" + input, true);
+    xmlhttp.send();
 }
