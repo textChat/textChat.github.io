@@ -1,4 +1,4 @@
 function start(){
- window.location.replace("html/signup.html");
+ window.location.replace("signup.html");
  console.log("Working");
 }
