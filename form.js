@@ -7,5 +7,8 @@
     for (var i = 0; i < params.length; i++) {
         var param = params[i].split("=");
         var name = dec(param[0]), val = dec(param[1]);
+            console.log(name);
+            console.log(params);
+            console.log(param);
     }
-    console.log(name, params);
+
