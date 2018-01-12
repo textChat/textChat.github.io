@@ -13,5 +13,7 @@ function test(){
     console.log(username, email, password);
     xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET", "sendData.php?username=" + username, true);
+    xmlhttp.open("GET", "sendData.php?email=" + email, true);
+    xmlhttp.open("GET", "sendData.php?password=" + password, true);
     xmlhttp.send();
 }
