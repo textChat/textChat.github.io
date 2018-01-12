@@ -1,6 +1,8 @@
 <?php include("conn.php");
 
 $username = $_GET['username'];
+$email = $_GET['email'];
+$password = $_GET['password'];
 if(empty($username)||($email)||($password)){
   header("Location: ../signup.html?signup=empty");
   exit();
