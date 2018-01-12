@@ -8,4 +8,4 @@
         var param = params[i].split("=");
         var name = dec(param[0]), val = dec(param[1]);
     }
-    console.log(name);
+    console.log(name, params);
